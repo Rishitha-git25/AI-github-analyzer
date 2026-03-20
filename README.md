@@ -60,15 +60,15 @@ AI Integration
 «Add your screenshots here (very important)»
 
 - Homepage UI
-- ![Screenshot](screenshots/homepage.jpeg)
+ ![Screenshot](screenshots/homepage.jpeg)
 - Repository input
-- ![links](screenshots/repolink.jpeg)
+ ![links](screenshots/repolink.jpeg)
 - AI-generated results
-- ![result](screenshots/aigeneratedresult.jpeg)
+ ![result](screenshots/aigeneratedresult.jpeg)
 - Analysed files
-- ![fileslist](screenshots/analyzedfiles.jpeg)
+  ![fileslist](screenshots/analyzedfiles.jpeg)
 - Mobile view
-- ![view](screenshots/mobile.png)
+ ![view](screenshots/mobile.png)
 
 ---
 
