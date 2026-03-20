@@ -68,7 +68,7 @@ AI Integration
 - Analysed files
 - ![fileslist](screenshots/analyzedfiles.jpeg)
 - Mobile view
-- ![view](screeshots/mobileview.jpeg)
+- ![view](screenshots/mobileview.png)
 
 ---
 
