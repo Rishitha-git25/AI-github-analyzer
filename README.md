@@ -62,8 +62,13 @@ AI Integration
 - Homepage UI
 - ![Screenshot](screenshots/homepage.jpeg)
 - Repository input
+- ![links](screenshots/repolink.jpeg)
 - AI-generated results
+- ![result](screenshots/aigeneratedresult.jpeg)
+- Analysed files
+- ![fileslist](screenshots/analyzedfiles.jpeg)
 - Mobile view
+- ![view](screeshots/mobileview.jpeg)
 
 ---
 
