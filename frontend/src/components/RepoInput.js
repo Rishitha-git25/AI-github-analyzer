@@ -46,7 +46,7 @@ function RepoInput() {
     };
     const explainFile = async (file) => {
         try {
-            const response = await fetch("http://localhost:5000/api/repo/explain-file", {
+            const response = await fetch("//https://ai-github-analyzer-acsj.onrender.com/api/repo/explain-file", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
