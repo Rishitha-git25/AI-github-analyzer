@@ -5,7 +5,10 @@ const repoRoutes = require('./routes/repoRoutes');
 const app = express();
 const PORT =  process.env.PORT || 5000;
 
-app.use(cors());//allow frontend requests from different origins (like localhost:3000 for React) to access the backend API without CORS issues
+app.use(cors({
+    origin:"https://ai-github-analyzer-indol.vercel.app",
+    methods: ["GET", "POST"],
+}));//allow frontend requests from different origins (like localhost:3000 for React) to access the backend API without CORS issues
 app.use(express.json());// Middleware to parse JSON bodies from incoming requests
 
 app.use('/api/repo', repoRoutes);//all routes in repoRoutes will be prefixed with /api
