@@ -21,7 +21,7 @@ function RepoInput() {
 
         try {
 
-            const response = await fetch("//https://ai-github-analyzer-acsj.onrender.com/analyze", {
+            const response = await fetch("https://ai-github-analyzer-acsj.onrender.com/analyze", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
@@ -46,7 +46,7 @@ function RepoInput() {
     };
     const explainFile = async (file) => {
         try {
-            const response = await fetch("//https://ai-github-analyzer-acsj.onrender.com/api/repo/explain-file", {
+            const response = await fetch("https://ai-github-analyzer-acsj.onrender.com/api/repo/explain-file", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
